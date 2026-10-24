@@ -1,0 +1,19 @@
+FRESHRETAILNET-50K — ORIGINAL DATA SOURCE
+
+Publisher: Dingdong-Inc
+Repository: https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Pinned dataset-card revision: 01a4be637d72261d180f14a96c3c1aec8c0c1e1e
+
+Original Parquet files:
+  train.parquet — 106,436,287 bytes
+  https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K/resolve/01a4be637d72261d180f14a96c3c1aec8c0c1e1e/data/train.parquet
+  eval.parquet — 8,440,124 bytes
+  https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K/resolve/01a4be637d72261d180f14a96c3c1aec8c0c1e1e/data/eval.parquet
+
+Download and verify both files with:
+  python src/download_data.py
+
+The script verifies exact byte size and SHA-256. It stops if the file differs.
+The Parquet files are excluded from Git commits because they are large. Include
+the dataset citation and attribution in any report or derivative work.
