@@ -6,23 +6,25 @@
   "stockout_status_used_as_predictor": false,
   "train_rows_raw": 4500000,
   "eval_rows_raw": 350000,
-  "train_rows": 4500000,
-  "eval_rows": 350000,
-  "series_count": 50000,
+  "train_rows": 9000,
+  "eval_rows": 700,
+  "series_count": 100,
   "train_min_date": "2024-03-28",
   "train_max_date": "2024-06-25",
   "eval_min_date": "2024-06-26",
   "eval_max_date": "2024-07-02",
-  "common_scored_rows": 350000,
+  "common_scored_rows": 700,
   "models": [
-    "lightgbm"
+    "lightgbm",
+    "tft",
+    "chronos"
   ],
   "quantiles": [
     0.1,
     0.5,
     0.9
   ],
-  "max_series_setting": 0,
+  "max_series_setting": 100,
   "seed": 17,
   "python_version": "3.13.18",
   "pandas_version": "2.2.3",
@@ -33,10 +35,12 @@
   "chronos_samples_per_series": 50,
   "chronos_cpu_batch_cap": 8,
   "model_runtime_seconds": {
-    "lightgbm": 422.296
+    "lightgbm": 3.362,
+    "tft": 100.63,
+    "chronos": 403.234
   },
-  "total_runtime_seconds": 469.031,
-  "run_timestamp_utc": "2026-10-31T03:59:30.775182+00:00",
+  "total_runtime_seconds": 515.173,
+  "run_timestamp_utc": "2026-10-31T04:08:08.129956+00:00",
   "reproducibility_environment": {
     "python": "3.13.18",
     "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
