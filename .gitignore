@@ -6,6 +6,5 @@ venv/
 .streamlit/secrets.toml
 data/*.parquet
 data/*.csv
-results/full_dataset_lightgbm/predictions_lightgbm.csv
 .DS_Store
 *.log
